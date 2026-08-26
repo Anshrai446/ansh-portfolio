@@ -95,3 +95,77 @@ body {
 .nav-links a:hover {
     color: #22d3ee;
 }
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.skill-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #22d3ee;
+    font-size: 1.25rem;
+}
+.skill-card p {
+    margin: 0;
+    color: #94a3b8;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+#skills {
+    padding: 80px 10%;
+}
+#skills h2 {
+    font-size: 2.2rem;
+    margin: 0 0 30px;
+    color: #e2e8f0;
+}
+.skill-card {
+    background-color: #1e293b;
+    padding: 24px;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+#projects {
+    padding: 80px 10%;
+}
+
+#projects h2 {
+    font-size: 2.2rem;
+    margin: 0 0 30px;
+    color: #e2e8f0;
+}
+.project-card {
+    background-color: #1e293b;
+    padding: 24px;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #e2e8f0;
+    font-size: 1.4rem;
+}
+.project-link {
+    display: inline-block;
+    color: #22d3ee;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.project-link:hover {
+    color: #ffffff;
+}
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: #22d3ee;
+}
