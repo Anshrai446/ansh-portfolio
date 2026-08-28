@@ -200,3 +200,92 @@ body {
   margin-top: 24px;
   font-size: 1rem;
 }
+#contact {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.4rem;
+  margin: 0 0 20px;
+  color: #ffffff;
+}
+
+.contact-description {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #22d3ee;
+  border-radius: 8px;
+  color: #22d3ee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.contact-link:hover {
+  background-color: #22d3ee;
+  color: #0f172a;
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 5%;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 5%;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .hero-image img {
+    width: 260px;
+    height: 260px;
+  }
+
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    padding: 60px 5%;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-link {
+    width: 200px;
+    text-align: center;
+  }
+}
